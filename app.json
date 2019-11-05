@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "K2 Bookings Prototype",
+    "slug": "k2-app",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rwlogo.png",
+    "splash": {
+      "image": "./assets/rwlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "uk.co.rhinoweb.k2bookings"
+    },
+    "android": {
+      "package": "uk.co.rhinoweb.k2bookings"
+    },
+    "description": "Bookings app for K2 Prestige Car Hire & Serviced Apartments in London."
+  }
+}
